@@ -1,0 +1,9 @@
+superuser   ration
+密码   12345qwert       
+
+>python manage.py runserver
+
+   app是实现某一功能的组件
+	实现功能要用model
+	实现model之后要进行迁移
+

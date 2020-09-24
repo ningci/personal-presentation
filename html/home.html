@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+<h1>欢迎访问我的主页</h1>
+{%for gallery in gallerys.all %}
+{{gallery.description}}
+<br>
+{% endfor %}
+</body>
+</html>
